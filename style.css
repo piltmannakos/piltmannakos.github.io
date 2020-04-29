@@ -8,7 +8,7 @@ header {
   height: 100%;
   background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
   padding: 100px;
-  background-size: 100% 100%;
+  background-position: 100% 100%;
   font-size: 80px;
   font-weight: bold;
   margin-left: 50px;
