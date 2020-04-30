@@ -6,7 +6,6 @@ main {
 header {
   width: 100%;
   height: 100%;
-  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
   background-color: grey;
   padding: 100px;
   background-position: 100% 100%;
