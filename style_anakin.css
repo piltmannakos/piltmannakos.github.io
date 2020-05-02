@@ -7,6 +7,7 @@ section {
   position: relative;
   text-align: center;
   color: white;
+  margin-bottom: 3px;
 }
 
 .hi {
@@ -21,7 +22,7 @@ section {
 }
 
 .anakin {
-  font-size: 80px;
+  font-size: 70px;
   position: absolute;
   bottom: 10px;
   left: 15px;
@@ -37,25 +38,28 @@ section {
 }
 
 .body {
-  font-size: 15px;
-  margin: 5% 20%;
-  padding: 0px;
+  font-size: 18px;
+  margin: 0 22%;
+  font-family: Josefin Sans;
+  line-height: 20px;
 }
 
 blockquote {
-  height: 100px;
-  width: 100%;
-  background: #333;
-  color: white;
-  text-align: center;
-  margin-left: -10px;
-  margin-right: -10px;
-  font-size: 60px;
-  padding: 50px;
-  font-weight: bold;
+  font-family: 'Abril Fatface', cursive;
+  font-size:3.5vw;
+  color:white;
+  background-color: #333;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  font-family: 'Abril Fatface', cursive;
+  margin-left:-40px;
+  margin-right:-40px;
+  margin-bottom:0px;
+  padding-right: 40px;
+  line-height:1.6;
 }
-
-blockquote::before {
+blockquote::before{
   content:'\201C';
   position: relative;
   top: -4vw;
@@ -63,28 +67,16 @@ blockquote::before {
   font-size: 10vw;
 }
 
-
-.anotherquotemark {
-  position: relative;
-  top: -630px;
-  font-size: 200px;
-  color: white;
-  margin-bottom: -420px;
-}
-
-.lastquotemark {
-  position: relative;
-  top: -630px;
-  font-size: 200px;
-  color: white;
-  margin-bottom: -420px;
-}
-
 h1 {
   text-transform: uppercase;
+  font-family: Abril Fatface;
+  color:#222;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h2 {
+  line-height: 1.6;
   margin-top: 0px;
   margin-bottom: 0px;
 }
